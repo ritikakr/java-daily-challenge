@@ -1,11 +1,23 @@
-package com.sup;
+package com.eligibility;
+import java.util.Scanner;
 
-public class Main 
-{
-	public static void main(String[] args)
+public class Main {
+
+	public static void main(String[] args) 
 	{
-		Child c1 = new Child();
-		c1.print_info();
+		// TODO Auto-generated method stub
+		Person p = new Person();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Students age:");
+		int age=sc.nextInt();
+		
+		p.getValue();
+		p.setValue(age);
+		
+		
+
 	}
 
 }
